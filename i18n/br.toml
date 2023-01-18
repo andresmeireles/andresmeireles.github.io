@@ -1,0 +1,24 @@
+[address]
+    other = 'Endereço'
+
+[banner]
+    other = "Olá, Sou André"
+
+[aboutMe]
+    other = "Um resolvedor de problemas"
+
+[btnText]
+    other = "Saiba mais"
+
+[skills]
+    other = "Principais Competências"
+
+[pressToKnowMore]
+    other = "Aperte nas images para saber mais"
+    # Click the images below to find out more
+
+[experience]
+    other = "Experiência"
+
+[education]
+    other = "Formação"

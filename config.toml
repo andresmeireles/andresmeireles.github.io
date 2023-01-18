@@ -1,0 +1,55 @@
+baseURL = "http://example.com" # The URL of your site
+languageCode = "br" # The language you want to display the site in
+title = "André Meireles" # The title you want to appear in the address bar
+theme = "hugo-developer-portfolio" # The theme, don't change this
+defaultContentLanguage = 'br'
+[languages]
+  [languages.br]
+    weight = 1
+    languageName = "português"
+    [[languages.br.menu.main]]
+      name = "Contato"
+      URL = "contact"
+    [[languages.br.menu.main]]
+      name = "Sobre"
+      URL = "about"
+  [languages.en]
+    weight = 2
+    languageName = "inglês"
+    [[languages.en.menu.main]]
+      name = "Contact"
+      URL = "contact"
+    [[languages.en.menu.main]]
+      name = "About"
+      URL = "about"
+
+[params.plugins]
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
+
+# [menu]
+#   [[menu.main]]
+#   name = "About"
+#   URL = "about"
+#   [[menu.main]]
+#   name = "Contact"
+#   URL = "contact"
+
+[params]
+home = "Home" # What you want the homepage to show up as in the menu bar
+# Meta data
+description = "Uma pagina de apresentação de André Meireles"
+author = "André Meireles"
+  [params.contact]
+  formAction = "https://formspree.io/<Insert code>" # Add your formspree URL here to get emails
+  # This contains the contact information for the footer
+  [params.footer]
+  email = "andre2meireles@gmail.com"
+  address = "Pará, BR"
+  googlemaps = "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwbHYJaUqfEgRK0Ui9dVGimc&key=AIzaSyAE_4rVAKux_DSPcb_OdSRDaovtPOSk_3U"

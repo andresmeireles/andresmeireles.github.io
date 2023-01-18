@@ -1,0 +1,13 @@
+item:
+  - title: PHP
+    logo: https://cdn-icons-png.flaticon.com/512/919/919830.png
+    description: "PHP (um acrônimo recursivo para 'PHP: Hypertext Preprocessor', originalmente Personal Home Page) é uma linguagem interpretada livre. Figura entre as primeiras linguagens passíveis de inserção em documentos HTML, dispensando em muitos casos o uso de arquivos externos para eventuais processamentos de dados. O código é interpretado no lado do servidor pelo módulo PHP, que também gera a página web a ser visualizada no lado do cliente."
+  - title: Laravel
+    logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1024px-Laravel.svg.png
+    description: framework top
+  - title: Slim Framework
+    logo: https://pbs.twimg.com/profile_images/710555987032350723/GDHlxO_z_400x400.jpg
+    description: framework top
+  - title: Flutter
+    logo: https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_flutter_icon_130599.png
+    description: framework top
