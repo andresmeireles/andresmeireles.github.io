@@ -1,4 +1,4 @@
-baseURL = "http://example.com" # The URL of your site
+baseURL = "https://andresmeireles.github.op" # The URL of your site
 languageCode = "br" # The language you want to display the site in
 title = "André Meireles" # The title you want to appear in the address bar
 theme = "hugo-developer-portfolio" # The theme, don't change this
